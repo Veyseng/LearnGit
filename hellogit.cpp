@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
 int main(){
-	String hello;
-	cout<<"Hello git";
-	cin>>hello;
+	string hello;
+	cout << "Hello git\n";
+	cin >> hello;
+	cout << "\n" << hello;
 	return 0;
 }
